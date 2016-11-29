@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Basic Spanish for Tourist</string>
+    // หน้า Login
+    <string name="login_article">เข้าสู่ระบบ</string>
+    <string name="username">ชื่อผู้ใช้</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="loginBtn">เข้าสู่ระบบ</string>
+    <string name="register">สมัครสมาชิก</string>
+    <string name="forgetpass">ลืมรหัสผ่าน</string>
+    <string name="loginFBBtn">Login with Facebook</string>
+    <string name="loginGoogleBtn">Sign in with Google+</string>
+</resources>
