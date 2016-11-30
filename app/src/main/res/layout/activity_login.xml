@@ -97,7 +97,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/loginBtn"
                 android:layout_weight="0.48"
-                android:text="@string/loginBtn" />
+                android:text="@string/loginBtn"
+                android:onClick="click2MainMenuPage"/>
         </LinearLayout>
 
         <Space
