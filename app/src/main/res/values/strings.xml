@@ -9,4 +9,15 @@
     <string name="forgetpass">ลืมรหัสผ่าน</string>
     <string name="loginFBBtn">Login with Facebook</string>
     <string name="loginGoogleBtn">Sign in with Google+</string>
+
+    // หน้า Register
+    <string name="regarcticle">สมัครสมาชิก</string>
+    <string name="regusername">ชื่อผู้ใช้ *</string>
+    <string name="regpassword">รหัสผ่าน *</string>
+    <string name="regpassagain">ยืนยันรหัสผ่าน *</string>
+    <string name="regemail">อีเมล *</string>
+    <string name="cancel">ยกเลิก</string>
+
+    //หน้าเมนูคำศัพท์
+    <string name="vocabTitle">Vocabulary</string>
 </resources>

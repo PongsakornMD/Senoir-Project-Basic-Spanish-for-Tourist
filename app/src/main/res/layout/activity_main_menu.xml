@@ -44,7 +44,8 @@
                 app:srcCompat="@drawable/vocabbtn"
                 android:id="@+id/imageButton2"
                 android:scaleType="fitCenter"
-                android:background="@android:color/background_light" />
+                android:background="@android:color/background_light"
+                android:onClick="click2VocabTypePage"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -52,7 +53,8 @@
                 app:srcCompat="@drawable/grammarbtn"
                 android:id="@+id/imageButton3"
                 android:scaleType="fitCenter"
-                android:background="@android:color/background_light" />
+                android:background="@android:color/background_light"
+                android:onClick="click2GrammarTypePage"/>
         </LinearLayout>
 
         <LinearLayout
@@ -66,7 +68,8 @@
                 app:srcCompat="@drawable/converbtn"
                 android:id="@+id/imageButton4"
                 android:scaleType="fitCenter"
-                android:background="@android:color/background_light" />
+                android:background="@android:color/background_light"
+                android:onClick="click2ConverTypePage"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -75,7 +78,8 @@
                 android:id="@+id/imageButton5"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
-                android:background="@android:color/background_light" />
+                android:background="@android:color/background_light"
+                android:onClick="click2ExerciseTypePage"/>
 
         </LinearLayout>
 
@@ -90,7 +94,8 @@
                 app:srcCompat="@drawable/scorebtn"
                 android:id="@+id/imageButton6"
                 android:scaleType="fitCenter"
-                android:background="@android:color/background_light" />
+                android:background="@android:color/background_light"
+                android:onClick="click2ScorePage"/>
         </LinearLayout>
 
         <LinearLayout
@@ -98,13 +103,20 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageButton
+            <Space
                 android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="51dp"
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/settingbtn"
                 android:id="@+id/imageButton7"
                 android:scaleType="fitEnd"
-                android:background="@android:color/background_light" />
+                android:background="@android:color/background_light"
+                android:onClick="click2SettingTypePage"
+                android:elevation="0dp" />
         </LinearLayout>
 
     </LinearLayout>

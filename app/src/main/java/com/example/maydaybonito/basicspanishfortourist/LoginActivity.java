@@ -17,4 +17,9 @@ public class LoginActivity extends AppCompatActivity {
         Intent i = new Intent(this, MainMenuActivity.class);
         startActivity(i);
     }
+
+    public void click2RegisterPage (View view){
+        Intent i = new Intent(this, RegisterActivity.class);
+        startActivity(i);
+    }
 }

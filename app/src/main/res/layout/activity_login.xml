@@ -48,7 +48,7 @@
                 android:text="@string/username"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/usernamTextView"
+                android:id="@+id/usernameTxtView"
                 android:textSize="@dimen/h2" />
 
             <EditText
@@ -116,7 +116,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/registerTextView"
                 android:layout_weight="1"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:onClick="click2RegisterPage"/>
 
             <TextView
                 android:text="@string/forgetpass"

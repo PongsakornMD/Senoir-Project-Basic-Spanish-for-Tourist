@@ -16,7 +16,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
-        <activity android:name=".MainMenuActivity"></activity>
+        <activity android:name=".MainMenuActivity" />
+        <activity android:name=".VocabTypeActivity" />
+        <activity android:name=".GrammarTypeActivity" />
+        <activity android:name=".ConverTypeActivity" />
+        <activity android:name=".ExerciseTypeActivity" />
+        <activity android:name=".ScoreActivity" />
+        <activity android:name=".SettingTypeActivity" />
+        <activity android:name=".RegisterActivity"></activity>
     </application>
 
 </manifest>
